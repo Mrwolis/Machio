@@ -1,0 +1,125 @@
+body {
+    font-family: 'Arima', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    /* Color de fondo */
+    color: white;
+    /* Color del texto */
+    padding: 20px 0;
+    /* Espacio superior e inferior */
+    text-align: center;
+    /* Centrar el contenido */
+}
+
+header img {
+    max-width: 150px;
+    /* Ajustar el tamaño del logo */
+    margin-bottom: 15px;
+    /* Espacio debajo del logo */
+}
+
+
+#Salsa {
+    max-width: 150px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+article img:hover{
+    text-decoration: underline;
+    transform: scale(1.2);
+    transition: 1.0s;
+    
+}
+
+
+article {
+
+    padding: 20px;
+    text-align: center;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    
+}
+
+article p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+nav {
+    margin-bottom: 20px;
+    /* Espacio debajo del nav */
+}
+
+nav ul {
+    list-style-type: none;
+    /* Sin viñetas */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    /* Elementos en línea */
+    margin: 0 15px;
+    /* Espaciado entre enlaces */
+}
+
+nav ul li a {
+    color: white;
+    /* Color del texto del enlace */
+    text-decoration: none;
+    /* Sin subrayado */
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    /* Subrayar al pasar el ratón */
+}
+
+main {
+    padding: 20px;
+    /* Espacio alrededor del contenido */
+}
+
+
+#Contacto {
+    background-color: #cb5e84;
+    /* Color de fondo */
+    color: white;
+    /* Color del texto */
+    padding: 20px 0;
+    /* Espacio superior e inferior */
+}
+
+#Contacto ul li {
+    list-style: none;
+    flex-direction: column;
+    display: inline;
+    margin: 0 100px;
+
+}
+
+#Contacto ul li:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
