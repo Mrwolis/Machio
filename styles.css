@@ -11,8 +11,16 @@ header {
     /* Color del texto */
     padding: 20px 0;
     /* Espacio superior e inferior */
+    
     text-align: center;
     /* Centrar el contenido */
+}
+
+header ul {
+    margin: 5px 5px 5px 5px;
+    border: 15px;
+    padding: 5px 5px 5px 5px;
+    
 }
 
 header img {
@@ -22,7 +30,10 @@ header img {
     /* Espacio debajo del logo */
 }
 
-
+section p {
+    text-align: justify;
+    margin: 16px 16px;
+}
 #Salsa {
     max-width: 150px;
     margin-bottom: 15px;
@@ -30,13 +41,23 @@ header img {
     margin-right: 15px;
 }
 
-article img:hover{
-    text-decoration: underline;
-    transform: scale(1.2);
-    transition: 1.0s;
+section{
+    display: grid;
     
 }
 
+section div {
+    margin: auto;
+    place-items: center;
+
+}
+
+article img:hover {
+    text-decoration: underline;
+    transform: scale(1.2);
+    transition: 1.0s;
+
+}
 
 article {
 
@@ -48,7 +69,7 @@ article img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
-    
+
 }
 
 article p {
@@ -86,19 +107,18 @@ nav ul li a:hover {
     /* Subrayar al pasar el ratón */
 }
 
-main {
-    padding: 20px;
-    /* Espacio alrededor del contenido */
-}
-
-
 #Contacto {
-    background-color: #cb5e84;
+    background-color: #c5a693;
     /* Color de fondo */
     color: white;
     /* Color del texto */
     padding: 20px 0;
     /* Espacio superior e inferior */
+    width: 100%;
+}
+
+#contacto ul{
+    padding: 0 0 0 0;
 }
 
 #Contacto ul li {
@@ -106,7 +126,12 @@ main {
     flex-direction: column;
     display: inline;
     margin: 0 100px;
+    padding: 0 0 0 0;
 
+}
+
+#contacto ul li a {
+    display: flex;
 }
 
 #Contacto ul li:hover {
